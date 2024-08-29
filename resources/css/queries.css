@@ -1,0 +1,144 @@
+/* For screens 1200px and below */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+      width: 100%;
+      padding: 0 2%;
+  }
+  .row {
+      padding: 0 2%;
+  }
+}
+
+/* For screens 1023px and below */
+@media only screen and (max-width: 1023px) {
+  .long-copy {
+      width: 80%;
+      margin-left: 10%;
+  }
+  header {
+      background-size: cover;
+  }
+  body {
+      font-size: 18px;
+  }
+  section {
+      padding: 60px 0;
+  }
+  .steps-box {
+      margin-top: 10px;
+  }
+  .works-step {
+      margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+      margin-bottom: 60px;
+  }
+  .app-screen {
+      width: 50%;
+  }
+  .icon-small {
+      width: 17px;
+      margin-right: 5px;
+  }
+  .city-feature {
+      font-size: 90%;
+  }
+  .plan-box {
+      width: 100%;
+      margin-left: 0;
+  }
+  .plan-price {
+      font-size: 250%;
+  }
+  .contact-form {
+      width: 80%;
+      margin: 0 auto;
+  }
+}
+
+/* For screens 767px and below */
+@media only screen and (max-width: 767px) {
+  body {
+      font-size: 16px;
+  }
+  section {
+      padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+      padding: 0 4%;
+  }
+  .col {
+      width: 100%;
+      margin: 0 0 4% 0;
+  }
+  .main-nav {
+      display: none;
+  }
+  .app-screen {
+      width: 40%;
+  }
+  .steps-box:first-child {
+      text-align: center;
+  }
+  .works-step div {
+      height: 40px;
+      width: 40px;
+      margin-right: 15px;
+      padding: 4px;
+      font-size: 120%;
+  }
+  .works-step {
+      margin-bottom: 20px;
+  }
+}
+
+/* For screens 480px and below */
+@media only screen and (max-width: 480px) {
+    section{
+        padding: 25px 0;
+        margin-right: 50px;
+    }
+
+  .contact-form {
+      width: 100%;
+      margin: 0 auto;
+  }
+}
+
+
+  body {
+      font-size: 16px;
+  }
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+  .header, .footer {
+      text-align: center;
+      padding: 10px 0;
+  }
+  .content {
+      padding: 10px;
+      margin: 0;
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .navbar {
+      flex-direction: column;
+  }
+  .works-step div,.works-step div p {
+   padding: 3px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: auto;
+}
+
+.yo{
+    margin-top: 2px;
+}
+
+
